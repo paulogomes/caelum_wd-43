@@ -1,19 +1,19 @@
 body {
-	margin-left: auto;
-	margin-right: auto;
-	width: 940px;
 	color: #333333;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px; 
 }
 
 h1 {
-	padding: 10px;
 	background-image: url(../img/sobre-background.jpg);
+	padding: 10px;
 }
 
 h2 {
-	margin-top: 30px;
 	border-bottom: 2px solid #333333;
+	margin-top: 30px;
 }
 
 p {
@@ -22,16 +22,16 @@ p {
 }
 
 figure {
+	background-color: #F2EDED;
+	border: 1px solid #ccc;
+	text-align: center;
 	padding: 15px;
 	margin: 30px;
-	background-color: #F2EDED;
-	border: 1px solid #CCC;
-	text-align: center;
 }
 
 figcaption {
-	margin-top: 10px;
 	font-style: italic;
+	margin-top: 10px;
 }
 
 #centro-distribuicao {
@@ -55,4 +55,12 @@ figcaption {
 	margin-right: 30px;
 	vertical-align: middle;
 	width: 94px;
+}
+
+p:first-letter {
+	font-weight: bold;
+}
+
+:not(p) + p:first-line {
+	font-variant: small-caps;
 }
