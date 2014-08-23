@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/sobre.css">
 		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
+		<link rel="stylesheet" href="css/sobre.css">
 		<title>Sobre a Mirror Fashion</title>
 	</head>
 	<body>
 
-		<img src="img/logo.png">
+		<?php include ('cabecalho.php'); ?>
+
+		<img src="img/logo.png"/>
 
 		<h1>A Mirror Fashion</h1>
 
@@ -17,24 +20,22 @@
 		Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
 		participação em 118 deles.</p>
 
-		<p>Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho">Jacarezinho, no Paraná</a>. De lá, saem 48 aviões que 
+		<p>Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=jacarezinho">Jacarezinho, no Paraná</a>. De lá, saem 48 aviões que 
 		distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:</p>
 
 		<figure id="centro-distribuicao">
-			<img src="img/centro-distribuicao.png">
-			<figcaption>Centro de distribuição da Mirror Fashion</figcaption>
+		<img src="img/centro-distribuicao.png"/>
+		<figcaption>Centro de distribuição da Mirror Fashion</figcaption>
 		</figure>
 
 		<p>Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html">nossa loja</a> ou entre em contato 
-		se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais</a>.</p>
-
-
+		se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="#diferenciais">diferenciais.</a></p>
 
 		<h2 id="historia">História</h2>
 
 		<figure id="familia-pelho">
-			<img src="img/familia-pelho.jpg">
-			<figcaption>Família Pelho</figcaption>
+		<img src="img/familia-pelho.jpg"/>
+		<figcaption>Família Pelho</figcaption>
 		</figure>
 
 		<p>A fundação em 1932 ocorreu no momento da descoberta econônica do interior do Paraná. A 
@@ -60,7 +61,7 @@
 
 		<ul>
 			<li>Menor preço do varejo, garantido</li>
-			<li>Se você achar uma loja mais barata, leva o produto de graça</li>
+			<li>Se você achar uma loja mais barata, leve o produto de graça</li>
 			<li>Pague em reais, dólares, euros ou bitcoins</li>
 			<li>Todas as compras com frete grátis para o mundo todo</li>
 			<li>Maior comércio eletrônico de moda do mundo</li>
@@ -69,10 +70,7 @@
 			<li>Mais de um milhão de funcionários em todo o mundo</li>
 		</ul>
 
-		<div id="rodape">
-			<img src="img/logo.png">
-
-			&copy; Copyright Mirror Fashion
+		<?php include ("rodape.php"); ?>
 		</div>
 
 	</body>

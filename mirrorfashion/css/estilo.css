@@ -11,7 +11,7 @@
 	right: 0;
 }
 
-.conteiner {
+.container {
 	margin: 0 auto;
 	width: 940px;
 }
@@ -103,9 +103,20 @@ header {
 	display: inline-block;
 	vertical-align: top;
 	width: 140px;
-
 	margin: 2px;
 	padding-bottom: 10px;
+	transition: 0.7s;
+}
+
+.painel li:hover {
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 5px #333;
+	transform: scale(1.2) rotate(-5deg);
+	transition: all 0.7s;
+}
+
+.painel li:nth-child(2n):hover {
+	transform: scale(1.2) rotate(5deg);
 }
 
 .painel h2 {
@@ -141,7 +152,7 @@ footer {
 	padding: 20px 0;
 }
 
-footer .conteiner {
+footer .container {
 	position: relative;
 }
 

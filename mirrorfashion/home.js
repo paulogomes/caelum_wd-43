@@ -24,12 +24,11 @@ function trocaBanner () {
 var time = setInterval(trocaBanner, 4000);
 
 
-// play/pause com o evento do mouse
-document.querySelector('.destaque img').addEventListener('mouseover', function () {
+/*document.querySelector('.destaque img').addEventListener('mouseover', function () {
 	clearInterval(time);
-});
+});*/
 
-document.querySelector('.destaque img').addEventListener('mouseout', function () {
+/*document.querySelector('.destaque img').addEventListener('mouseout', function () {
 	trocaBanner();
-	time = setInterval(trocaBanner, 4000);
-});
+	var time = setInterval(trocaBanner, 4000);
+});*/
