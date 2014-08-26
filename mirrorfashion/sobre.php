@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/estilo.css">
-		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 320px)">
-		<link rel="stylesheet" href="css/sobre.css">
-		<title>Sobre a Mirror Fashion</title>
-	</head>
-	<body>
+		<?php
+			$cabecalho_title = 'Sobre a Mirror Fashion';
+			$cabecalho_css = '<link rel="stylesheet" href="css/sobre.css">';
+			include ('cabecalho.php');
+		?>
 
-		<?php include ('cabecalho.php'); ?>
-
-		<img src="img/logo.png"/>
+		<!-- <img src="img/logo.png"/> -->
 
 		<h1>A Mirror Fashion</h1>
 
@@ -69,6 +61,7 @@
 			<li>Presente em 124 países</li>
 			<li>Mais de um milhão de funcionários em todo o mundo</li>
 		</ul>
+		<br/>
 
 		<?php include ("rodape.php"); ?>
 		</div>

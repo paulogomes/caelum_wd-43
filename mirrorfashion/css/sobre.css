@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-	background-image: url(../img/sobre-background.jpg);
+	/*background-image: url(../img/sobre-background.jpg);*/
 	padding: 10px;
 }
 
@@ -45,7 +45,7 @@ figcaption {
 	margin: 0 0 10px 10px;
 }
 
-#rodape {
+/*#rodape {
 	color: #777;
 	margin: 30px 0;
 	padding: 30px 0;
@@ -55,7 +55,7 @@ figcaption {
 	margin-right: 30px;
 	vertical-align: middle;
 	width: 94px;
-}
+}*/
 
 p:first-letter {
 	font-weight: bold;
